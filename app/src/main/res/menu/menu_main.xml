@@ -9,26 +9,35 @@
         android:orderInCategory="100"
         android:icon="@drawable/england"
         whowhenandroid:showAsAction="ifRoom"
-        />
+        android:checkable="false" />
     <item
         android:id="@+id/action_france"
         android:title="France"
         android:orderInCategory="200"
         android:icon="@drawable/france"
         whowhenandroid:showAsAction="ifRoom"
-        />
+        android:checkable="false" />
     <item
         android:id="@+id/action_usa"
         android:title="USA"
         android:orderInCategory="400"
         android:icon="@drawable/usa"
         whowhenandroid:showAsAction="ifRoom"
-        />
+        android:checkable="false" />
+    <item
+        android:id="@+id/action_rome"
+        android:title="Rome"
+        android:orderInCategory="500"
+        android:icon="@drawable/rome"
+        whowhenandroid:showAsAction="ifRoom"
+        android:checkable="false" />
     <item
         android:id="@+id/menu_item_share"
         android:title="Share this"
         android:orderInCategory="600"
         whowhenandroid:actionProviderClass= "android.support.v7.widget.ShareActionProvider"
         whowhenandroid:showAsAction="ifRoom"
-        />
+        android:visible="true"
+        android:enabled="true"
+        android:checkable="false" />
 </menu>
